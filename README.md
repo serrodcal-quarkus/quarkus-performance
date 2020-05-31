@@ -17,8 +17,8 @@ Running on JVM with Java 11.
 
 ## Test definition
 
-1. 10 threads with 10,000 concurrent users by 60 seconds.
-
+1. 10 threads with 10,000 concurrent users by 60 seconds with WRK.
+2. Using all cores available with Vegeta.
 
 ## Results
 
