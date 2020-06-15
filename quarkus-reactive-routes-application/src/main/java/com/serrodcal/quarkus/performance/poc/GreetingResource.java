@@ -1,10 +1,10 @@
 package com.serrodcal.quarkus.performance.poc;
 
+import io.quarkus.launcher.shaded.org.apache.http.HttpStatus;
 import io.quarkus.vertx.web.Route;
 import io.vertx.core.http.HttpHeaders;
 import io.vertx.ext.web.RoutingContext;
 import io.vertx.core.http.HttpMethod;
-import org.apache.http.HttpStatus;
 import org.jboss.logging.Logger;
 
 import javax.enterprise.context.ApplicationScoped;
